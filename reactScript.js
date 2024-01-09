@@ -43,4 +43,9 @@ function ProductCard(){
     )
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<ProductCard/>);
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <>
+    <ProductCard/>
+    <ProductCard/>
+    </>
+);
